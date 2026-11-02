@@ -1,0 +1,17 @@
+{
+  "name": "priyanshu-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check scripts/build.mjs && node --check scripts/serve.mjs && node --check public/site.js && node scripts/validate.mjs && node --check worker/index.mjs && node --check netlify/functions/chat.mjs && node --check src/motion.js",
+    "test": "node scripts/validate.mjs && node scripts/test-chat.mjs && node scripts/test-netlify-chat.mjs"
+  },
+  "dependencies": {
+    "esbuild": "0.28.2",
+    "gsap": "3.15.0",
+    "motion": "14.8.0"
+  }
+}

@@ -1,0 +1,1 @@
+Place an authentic approved portrait here as portrait.jpg (or portrait.png / portrait.webp). Run npm run build after adding it. The build uses the first file found in that order; no stock or generated face is used. A square or vertical image of at least 1000px on its shortest side works well. Use only images you have permission to publish.

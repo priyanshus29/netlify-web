@@ -1,0 +1,348 @@
+{
+  "profile": {
+    "name": "Priyanshu Singh",
+    "title": "SAP BTP / CAPM Developer · SAP UI5 / Fiori Consultant",
+    "location": "Bengaluru, Karnataka, India",
+    "email": "priyanshudsu@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/priyanshusingh2903/",
+    "phone": "+91-9742903254",
+    "intro": "I build enterprise applications across SAP BTP—from CAP services and financial integrations to SAP Fiori and UI5 experiences, with 2+ years of experience at TruSpeQ Consulting.",
+    "about": "I work where business processes meet the systems that power them. At TruSpeQ Consulting, I’ve progressed from full-stack intern to technical consultant, building across data models, backend services and enterprise interfaces.",
+    "aboutDetail": "My work spans SAP S/4HANA Public Cloud implementations and support, including financial transactions, bulk uploads and e-Invoice compliance. I work across requirements, integration, authentication, deployment and production support.",
+    "resumeHighlights": [
+      "SAP BTP / CAPM and SAPUI5/Fiori developer with 2+ years of experience at TruSpeQ Consulting Pvt. Ltd., an SAP Gold Partner.",
+      "Works across requirements analysis, application design, data modeling, service development, frontend/backend integration, authentication, deployment and production support.",
+      "Experience includes CAP service handlers, custom actions and functions, HANA persistence, AppRouter, XSUAA, MTA and Cloud Foundry deployment and Fiori Launchpad integration.",
+      "Has worked with SAP Fiori Freestyle and Fiori Elements, custom CDS views in SAP S/4HANA Public Cloud, bulk Excel-upload loaders, e-Invoice compliance and financial transaction processing.",
+      "Experience includes Cloud Foundry, SAP HANA Cloud, Destination Service, Job Scheduler and SAP Build Work Zone, troubleshooting and collaboration with functional and business teams."
+    ],
+    "banner": {
+      "path": "public/images/personal-banner.webp",
+      "alt": "Personal branding banner for Priyanshu Singh featuring SAP BTP technical consultant text, a portrait illustration and technology imagery."
+    }
+  },
+  "projects": [
+    {
+      "id": "01",
+      "slug": "go-mobi",
+      "client": "GO MOBI",
+      "title": "Master Data & Financial Transaction Ingestion Engine",
+      "category": "SAP S/4HANA Public Cloud implementation",
+      "role": "Technical Consultant",
+      "lead": "Bringing external transactions into an enterprise landscape, with validation and traceability built into the journey.",
+      "context": "A microservices-based SAP BTP integration solution connecting Mobi transaction portals to SAP S/4HANA Public Cloud for master data and financial transactions.",
+      "requirement": "Ingest and validate CSV transaction files, consolidate payments into balanced journal entries, and support multiple company codes and currencies with traceable processing.",
+      "implementation": "Designed and developed CAP microservices and automated SFTP ingestion with file- and row-level validation, duplicate detection, idempotency and error reporting. Implemented atomic batch persistence, financial consolidation, audit logs, retries and alerts. Built OData V4 services, custom actions and two-way callbacks to update SAP document and business partner numbers and processing statuses.",
+      "architecture": "SAP CAP and Node.js, CDS models and SAP HANA Cloud, SFTP, OData V4, SAP CPI, S/4HANA Business Partner and Journal Entry APIs, XSUAA and Cloud Foundry. Supported CAP services and HANA HDI deployments across DEV, QA/UAT and production, including performance and security testing.",
+      "tags": [
+        "SAP CAP",
+        "Node.js",
+        "HANA Cloud",
+        "SFTP",
+        "OData V4",
+        "SAP CPI"
+      ],
+      "filter": "implementation",
+      "outcomes": "The résumé describes consolidation of thousands of daily payments into balanced multi-line accounting journal entries; no quantified improvement is stated.",
+      "resumeDetails": [
+        "Designed SAP HANA Cloud data models for raw transactions, consolidated transactions, merchant master data and file-processing and audit logs.",
+        "Developed CSV ingestion with file-level and row-level validation, multi-layer checks, duplicate detection, idempotency and automated error reporting.",
+        "Implemented atomic all-or-nothing batch persistence and consolidation of thousands of daily payments into balanced multi-line accounting journal entries for multiple company codes and currencies.",
+        "Exposed OData V4 services and custom actions with server-side filtering for SAP CPI to trigger SAP S/4HANA Business Partner and Journal Entry APIs, with two-way callbacks to update document and BP numbers and processing status.",
+        "Worked with CAP services and HANA HDI containers across DEV, QA/UAT and production, including large-volume performance and security testing."
+      ]
+    },
+    {
+      "id": "02",
+      "slug": "tsi",
+      "client": "TSI",
+      "title": "Enterprise Financial & Operational Bulk Upload Framework",
+      "category": "SAP S/4HANA Public Cloud implementation",
+      "role": "Technical Consultant",
+      "lead": "Turning complex bulk operations into structured, reusable upload workflows.",
+      "context": "A suite of Fiori/UI5 loader applications covering financial and operational processes, including assets, WBS, purchasing, service entry, goods receipt and payments.",
+      "requirement": "Provide reusable, validated Excel bulk-upload workflows for a broad range of SAP business processes, including a custom Purchase Order Bulk Loader.",
+      "implementation": "Developed reusable template-download, field-mapping and Excel-upload components with mandatory-field, data-type and business-rule validation, date/number conversion, multi-sheet uploads and dependent-record checks. Built payload transformation, valid/invalid filtering, atomic submission of valid entries, error handling, record tracking and audit-trail and Excel exports.",
+      "architecture": "SAP Fiori/UI5 and Fiori Elements in SAP Business Application Studio, JSON/OData models, OData and REST APIs, SAP BTP Cloud Foundry, and Fiori Launchpad tiles, catalogs and target mappings.",
+      "tags": [
+        "SAPUI5",
+        "Fiori",
+        "Excel",
+        "OData",
+        "REST APIs"
+      ],
+      "filter": "implementation",
+      "applications": [
+        "Fixed Asset Acquisition",
+        "Asset Retirement",
+        "Asset Master Change",
+        "WBS Create / Upload / Change",
+        "Purchase Order",
+        "Service Entry Creation",
+        "Service Entry Sheet",
+        "GRN",
+        "Vendor Payment",
+        "Customer Collection",
+        "Customer-to-Customer",
+        "Vendor-to-Vendor",
+        "Customer-Vendor",
+        "PNB Annexure",
+        "GIGR"
+      ],
+      "resumeDetails": [
+        "Built a custom Purchase Order Bulk Loader on SAP BTP using Fiori Elements in SAP Business Application Studio.",
+        "Built template downloads, template-based field mapping, mandatory-field and data-type checks, date and number conversion, business rules, multi-sheet uploads and dependent-record validation.",
+        "Converted uploaded Excel data to SAP-compatible OData and REST payloads, filtered valid and invalid records, and supported atomic submission of valid entries with actionable error logs.",
+        "Used JSON/OData models, controllers, validation managers and export utilities for reusable services and components handling validation, transformations, responses, audit trails and Excel export.",
+        "Troubleshot payload mismatches, validation failures, HTTP and SAP backend errors, and deployed to Cloud Foundry with Fiori Launchpad tiles, catalogs and target mappings."
+      ]
+    },
+    {
+      "id": "03",
+      "slug": "arya",
+      "client": "ARYA",
+      "title": "Custom Bank Balance Report",
+      "category": "SAP S/4HANA Public Cloud support",
+      "role": "Technical Consultant",
+      "lead": "A clearer view of bank balances, shaped around the filters finance teams need.",
+      "context": "A custom bank balance reporting application using a Fiori Elements List Report.",
+      "requirement": "Expose opening and closing balances with dynamic filtering by company code, G/L account and posting date.",
+      "implementation": "Developed a Fiori Elements List Report in SAP Business Application Studio, with custom CDS views, fields, UI annotations and opening/closing balance calculations. Exposed OData with dynamic filters and performed integration testing, data validation and performance optimization.",
+      "architecture": "SAP Fiori Elements, custom CDS views in SAP S/4HANA Public Cloud, OData, SAP BTP Cloud Foundry and Fiori Launchpad tiles, catalogs and target mappings.",
+      "tags": [
+        "Fiori Elements",
+        "CDS",
+        "OData",
+        "Reporting"
+      ],
+      "filter": "support",
+      "resumeDetails": [
+        "Developed a custom bank balance report using SAP Fiori Elements List Report in SAP Business Application Studio.",
+        "Designed custom CDS views in SAP S/4HANA Public Cloud with fields, UI annotations and opening and closing balance logic.",
+        "Exposed OData with filters on company code, G/L account and posting date; performed integration testing, data validation and performance optimization.",
+        "Deployed to SAP BTP Cloud Foundry and configured Fiori Launchpad tiles, catalogs and target mappings."
+      ]
+    },
+    {
+      "id": "04",
+      "slug": "dynamic",
+      "client": "DYNAMIC SOLUTIONS — BRUNEI",
+      "title": "Employee Benefits & Management Applications",
+      "category": "Support project",
+      "role": "Technical Consultant",
+      "lead": "A connected portfolio of employee applications, built around reusable interface patterns.",
+      "context": "Eight SAPUI5/Fiori applications supporting employee benefits, allowances, loans and employee management for Dynamic Solutions in Brunei.",
+      "requirement": "Support related employee processes with maintainable interfaces and enterprise data integration.",
+      "implementation": "Developed and supported MVC-based SAPUI5 applications with XML views, fragments, reusable components, JSON/OData models, CRUD, routing and data binding. Configured Launchpad and Gateway/ICF services; handled enhancements, debugging, performance tuning and production support.",
+      "architecture": "SAPUI5, Fiori, XML, MVC, SAP Gateway OData, SAP ABAP Repository and SAP BTP Cloud Foundry.",
+      "tags": [
+        "SAPUI5",
+        "MVC",
+        "XML",
+        "OData",
+        "SAP Gateway"
+      ],
+      "filter": "support",
+      "applications": [
+        "Leave Allowance",
+        "Education Allowance",
+        "Conveyance Loan",
+        "Passage Meeting",
+        "Passage Allowance",
+        "Housing Loan",
+        "Housing Rental",
+        "Employee Management"
+      ],
+      "resumeDetails": [
+        "Developed and supported eight SAPUI5/Fiori applications using MVC, XML views and fragments, reusable components and SAP Fiori design principles.",
+        "Integrated SAP Gateway OData, JSON/OData models, CRUD, routing, navigation and dynamic data binding.",
+        "Configured Fiori Launchpad catalogs, groups, tiles and target mappings and activated ICF nodes and Gateway services.",
+        "Deployed across SAP ABAP Repository and SAP BTP Cloud Foundry and worked on enhancements, change requests, debugging, performance tuning and production support with functional consultants and business users."
+      ]
+    },
+    {
+      "id": "05",
+      "slug": "moldmaster",
+      "client": "MOLDMASTER",
+      "title": "SAP Fiori My Inbox Extension",
+      "category": "EHP upgrade and support",
+      "role": "Technical Consultant",
+      "lead": "Extending a standard approval experience to connect the user action with backend workflow logic.",
+      "context": "An SAP ECC EHP8 upgrade and support project involving SAP Fiori My Inbox.",
+      "requirement": "Configure the standard inbox and support a custom approval action within the existing workflow landscape.",
+      "implementation": "Configured and activated standard My Inbox, OData Gateway services and ICF nodes; extended the UI5 application with a custom Approve action and backend workflow logic. Worked on SAP Task Gateway, Fiori Launchpad, PFCG role authorizations, end-to-end testing and troubleshooting.",
+      "architecture": "SAP ECC EHP8, SAP Fiori My Inbox, OData Gateway and ICF services, SAP Task Gateway, Fiori Launchpad and PFCG roles.",
+      "tags": [
+        "Fiori My Inbox",
+        "ECC EHP8",
+        "OData",
+        "Task Gateway"
+      ],
+      "filter": "support",
+      "resumeDetails": [
+        "Configured and activated the standard SAP Fiori My Inbox, OData Gateway services and ICF nodes in SAP ECC EHP8.",
+        "Extended the standard UI5 application with a custom Approve action and backend approval workflow logic.",
+        "Configured SAP Task Gateway integration, Fiori Launchpad catalogs, groups, tiles and target mappings, and PFCG role authorizations.",
+        "Performed end-to-end testing, troubleshooting and performance tuning for workflow item processing across system landscapes."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "dates": "JUL 2025 — PRESENT",
+      "role": "Technical Consultant",
+      "designation": "Software Engineer",
+      "text": "Develops enterprise applications across SAP BTP, CAP services and UI5/Fiori, working through integration, authentication, deployment and production support with functional and business teams."
+    },
+    {
+      "dates": "NOV 2024 — JUL 2025",
+      "role": "SAP UI5 / Fiori Developer Intern",
+      "designation": "TruSpeQ Consulting Pvt. Ltd.",
+      "text": "Developed SAP UI5/Fiori applications, connecting enterprise interfaces to backend services and supporting integration and deployment."
+    },
+    {
+      "dates": "FEB 2024 — JUL 2024",
+      "role": "Full Stack Developer Intern",
+      "designation": "TruSpeQ Consulting Pvt. Ltd.",
+      "text": "College internship building experience in full-stack frontend and backend development."
+    }
+  ],
+  "skills": [
+    {
+      "number": "01",
+      "name": "BTP & backend",
+      "items": [
+        "SAP CAPM",
+        "Node.js",
+        "CDS modeling",
+        "CAP service handlers",
+        "Custom actions / functions",
+        "OData V4",
+        "SAP HANA Cloud",
+        "HDI containers",
+        "HANA SQL",
+        "SQLite",
+        "SFTP"
+      ]
+    },
+    {
+      "number": "02",
+      "name": "Frontend",
+      "items": [
+        "SAPUI5",
+        "Fiori Elements",
+        "Fiori Freestyle",
+        "XML Views",
+        "MVC",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Fiori Launchpad",
+        "Smart Controls",
+        "Flexible Column Layout",
+        "VizFrame Charts",
+        "e-Invoice compliance"
+      ]
+    },
+    {
+      "number": "03",
+      "name": "Integration & delivery",
+      "items": [
+        "SAP CPI overview",
+        "REST APIs",
+        "OData V2 / V4",
+        "XSUAA",
+        "OAuth 2.0",
+        "AppRouter",
+        "Role collections",
+        "Destination Service",
+        "Cloud Foundry",
+        "MTA",
+        "Job Scheduler",
+        "SAP Build Work Zone",
+        "CI/CD concepts"
+      ]
+    },
+    {
+      "number": "04",
+      "name": "Tools & programming",
+      "items": [
+        "SAP Business Application Studio",
+        "SAP Web IDE",
+        "VS Code",
+        "Git / GitHub",
+        "JavaScript",
+        "Python",
+        "C",
+        "C++",
+        "SAP ABAP / DDIC (working knowledge)",
+        "RAP (basic knowledge)",
+        "SAP Gateway"
+      ]
+    }
+  ],
+  "certifications": [
+    "SAP Certified - Backend Developer - SAP Cloud Application Programming Model",
+    "SAP Certified - SAP Fiori Application Developer",
+    "SAP Certified - SAP Build Developer",
+    "SAP Certified - SAP Generative AI Developer"
+  ],
+  "training": [
+    "SAP Fiori, UI5, Gateway, OData for Beginners",
+    "SAP CPI: Overview of SAP Cloud Platform Integration",
+    "Technical Consulting Virtual Internship",
+    "Complete C, C++, C#, Java and Python Bootcamp"
+  ],
+  "education": [
+    {
+      "degree": "B.Tech, Electronics and Communication Engineering",
+      "school": "Dayananda Sagar University, Bengaluru",
+      "year": "2024"
+    },
+    {
+      "degree": "Pre-University",
+      "school": "Narayana PU College",
+      "year": "2020"
+    },
+    {
+      "degree": "SSLC (ICSE)",
+      "school": "St. Francis De Sales Public School",
+      "year": "2018"
+    }
+  ],
+  "languages": [
+    "English",
+    "Hindi",
+    "Kannada",
+    "Tamil",
+    "Telugu",
+    "Bhojpuri"
+  ],
+  "architecture": [
+    {
+      "name": "Interface",
+      "tech": "UI5 / Fiori",
+      "description": "Shape usable enterprise interfaces with SAPUI5, Fiori Elements and reusable frontend patterns."
+    },
+    {
+      "name": "Service",
+      "tech": "CAP / OData",
+      "description": "Build CAP services, handlers and OData endpoints that connect application logic with the interface."
+    },
+    {
+      "name": "Data",
+      "tech": "CDS / HANA",
+      "description": "Model and persist enterprise data with CDS and SAP HANA Cloud."
+    },
+    {
+      "name": "Integration",
+      "tech": "APIs / CPI",
+      "description": "Connect enterprise systems through OData, REST APIs and SAP CPI integrations."
+    },
+    {
+      "name": "Delivery",
+      "tech": "Cloud / Security",
+      "description": "Deploy to SAP BTP Cloud Foundry and configure authentication and authorization with XSUAA and role collections."
+    }
+  ]
+}
